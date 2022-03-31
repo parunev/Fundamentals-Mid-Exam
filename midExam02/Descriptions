@@ -1,0 +1,16 @@
+1. SoftUni Reception
+
+Three employees are working on the reception all day. Each of them can handle diff amount of students per hour.
+Your task is to calcuate how much time it will take to answer all the questions of a given number of students
+3 lines of integers representing the number of students each employee can help per hour. 1 integer line for students count.
+Every fourth hour - break.
+
+
+2. Array Modifier
+
+Write a program to modify array of integers after recieving commands as input. swap, multiply, decrease
+
+
+3. Numbers
+
+Write a program to read a sequence of integers and find and print the top 5 numbers greater than the average value in the sequence
