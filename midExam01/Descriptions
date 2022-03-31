@@ -1,0 +1,20 @@
+<strong>1. Computer Store</strong>
+
+Write a program that prints you a receipt for a new computer. 
+You will recieve the parts' prices (without tax) until you recieve what type of client it is regular or special
+tax 20% for each item you recieve
+if special - 10% discount from total price with taxes
+
+
+<strong>2. The Lift</strong>
+
+Write a program that finds a place for tourist on a lift.
+Every wagon should have a maximum of 4 people on it. If a wagon is full, you should direct the people to the next one with space available
+
+
+<strong>3. Memory Game</strong>
+
+Write a program that recreates the Memory game.
+You will recieve a sequence of elements. Each element in the sequence will have a twin
+Until command "End" we will recieve string with two integers separated by space, representing the indexes of elements in the sequence
+If two equal indexes are entered or indexes which are out of bounds of the sequence, you should add two matching elements at the middle of the sequence.
