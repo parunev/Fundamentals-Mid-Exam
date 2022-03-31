@@ -1,0 +1,27 @@
+1. Counter Strike
+
+Write a program that keeps track on every won battle against enemy. You will recieve inital energy. Afterward you will start recieving the distance you 
+need to reach an enemy. You either recieve "End of Battle" or you run out of energy.
+The energy you need to for reaching an enemy is equal to the distance you recieve. For each time you reach enemy you win and your energy is reduced. 
+Every third won battle increase your energy with value of your current won battles.
+If you run out of energy - end program.
+
+
+2. Shoot for the win
+
+Write a program that helps you keep track of your shot targets. 
+You receive a sequence with integers, separated by space, representing targets and their value.
+After that you recieve indices until command "End" and you need to print the targets and count of shot targets.
+Everytime you recieve index you need to shoot the target on that index, if it's possible.
+
+Everytime you shoot a target, its value becomes -1 and it's considered shot.
+Also with that you need to reduce all other targets, which have greater values than your current target, with it's value.
+Also with that you need to increase all the other targets, which have less or equal value to the shot target, with it's value.
+You can't shoot a target which is already shot and you can't increase or reduce target which is considered shot.
+
+
+3. Moving target
+
+Write a program that helps you keep track of moving targets.
+You recieve a sequence of targets with their integer values, split by a single space.
+Then you will recieve commands for manipulating the targets until command "End". shoot, add, strike, end
