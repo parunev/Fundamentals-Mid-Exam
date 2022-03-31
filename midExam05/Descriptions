@@ -1,0 +1,35 @@
+1. Bonus Scoring System
+
+Write a program that calculate bonus points for each student enrolled in a course.
+You will recieve number of students, total amount of lectures and additional bonus.
+On the following lines you will be recieving the count of attendances for each student.
+
+You need to calculate the bonus.
+You job is to find the student with the maximum bonus and print them along with his attendances. 
+
+
+2. Mu Online
+
+You have initial health 100 and initial bitcoins 0. 
+You will be given a string representing the dungeons rooms. 
+Each room separated by vertical bar.
+
+Each room will contain a command and a number, separated by space. The commands can be:
+potion, chest and in any other case you're facing a monster.
+
+Potion gives you health but you cannot exceed your initial 100.
+Chest gives you bitcoins
+In case you face a monster and your health is bigger than 0 you win the battle otherwise you're getting killed.
+
+If you get killed by monster your print the best room you manage to reach. If you managed to go through all the rooms you print your stats.
+
+
+3. Inventory
+
+You will recieve a journal with some collecting items, separated by comma and space. 
+Until you recieve the command "Craft" you get different commands split by "-"
+
+Collect - item - If the item does not exist you should add it your inventory. Otherwise skip.
+Drop - item - You should remove the item from your inventory if it exists.
+Combine Items - olditem:newitem - you should check if the old item exists. if so, add the new item after the old one.
+Renew - item - if the given item exist you should place it last in your inventory
