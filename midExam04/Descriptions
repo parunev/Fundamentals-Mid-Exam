@@ -1,0 +1,31 @@
+1. Guinea Pig
+
+On the first three lines, you will recieve the quantity of food, hay and cover which you buy for a month(30 days).
+On the fourth line, you will recieve the guinea pig weight.
+Every day the pig eats 300gr of food. Every second day you first feeds the pet then gives it a certain amount of hay equal to 5% of the rest of the food.
+On every third day, you put cover with a quantity 1/3 of it's weight.
+
+Write a program to calculate whether the quantity of food, hay and cover will be enough for a month.
+If you run out of food, hay or cover - end the program.
+
+
+2. Shopping list
+
+You will recieve an initial list with groceries separated by an exclamation mark.
+After that you will be receiving 4 types of commands until you recieve "Go shopping!"
+Commands:
+1.Urgent *input* - add the item at the start of the list. If the item already exists, skip.
+2.Unnecessary *input* - remove the item with the given name, only if it exists in the list.
+3.Correct *input* *input* - if the item with the given old name exists, change it's name with the new one. Otherwise skip.
+4.Rearrange *input* - if the grocery exists in the list, remove it from it's current position and add it at the end of the list. Otherwise skip.
+
+
+3. Heart Delivery
+
+You will recieve a string with even integers, separated by "@". - "@" is our neighborhood.
+After that you will recieve a series of "Jump" commands until you recieve "Love!".
+Every house in the neighborhood need a certain hearts delivered so they can celebrate. The integers in the neighborhood indicate those hearts.
+
+We start from index 0 and we must jump by a given length. The commands will be formatted like this - Jump*length*
+Everytime we jump from one to another index, the hearts will be decreased by 2
+If the given length jump (index) is larger than the size given. We should start from index 0 again.
